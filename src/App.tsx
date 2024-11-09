@@ -66,7 +66,7 @@ const App: React.FC = () => {
               <Route path="/post/:postId" element={getUnAuthenticatedComponent(ViewPost)} />
               <Route path="/comment/:postId" element={getUnAuthenticatedComponent(ViewPost)} />
               <Route path="/like/:postId" element={getUnAuthenticatedComponent(ViewPost)} /> */}
-              <Route path="*" element={getUnAuthenticatedComponent(NotFound)} />
+              <Route path="*" element={getUnAuthenticatedComponent(ComingSoonPage)} />
             </Routes>
           </div>
       </Router>
