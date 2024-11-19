@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const BACKEND_SERVER_URL_DEV = 'http://192.168.0.13:8080';
-const BACKEND_SERVER_URL_PROD = 'api/';
+const BACKEND_SERVER_URL_PROD = 'https://networking.ltiora.com';
 
 export const BACKEND_SERVER_URL = process.env.NODE_ENV === 'development' ? BACKEND_SERVER_URL_DEV : BACKEND_SERVER_URL_PROD;
 
